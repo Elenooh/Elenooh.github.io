@@ -27,22 +27,31 @@
 </section>
 
         
-       <section id="dog-generator">
-    <h2>Dog Generator</h2>
-    <div id="dog-preview">
-        <img src="https://i.imgur.com/W2SFqfr.png" alt="Dog preview" id="dogBase">
-        <!-- Overlay images positioned absolutely within this container -->
-    </div>
-    <div id="options">
-        <label for="eyeColor">Eye Color:</label>
+      <div id="dog-generator-wrapper">
+    <div id="options-container">
         <select id="eyeColor">
+            <option value="">Select Eye Color</option>
             <option value="brown">Brown</option>
             <option value="blue">Blue</option>
             <!-- Add more options as needed -->
         </select>
-        <!-- Repeat for other options like nose, base, markings -->
+        <!-- Repeat for other options like nose color, base color, skin color -->
+
     </div>
-</section>
+    <div id="dog-preview-area">
+        <img id="dogPreviewImage" src="path-to-your-dog-image.png" alt="Dog Preview">
+    </div>
+    <div id="additional-options">
+        <select id="markingSlot1">
+            <option value="">Marking Slot 1</option>
+            <option value="blackSpots1">Black Spots 1</option>
+            <option value="blackSpots2">Black Spots 2</option>
+            <!-- Add more options as needed -->
+        </select>
+        <!-- Repeat for marking slot 2 and other additional options -->
+    </div>
+</div>
+
 
         
         <section id="features">
