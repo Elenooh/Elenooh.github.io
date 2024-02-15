@@ -11,40 +11,45 @@ body {
     background-repeat: repeat;
 }
 
-/* Corrected header styles */
+/* Enhancing the welcome message */
 .welcome-message {
-    background-color: #333; /* Matches the header */
+    background-color: #333;
     color: #fff;
-    padding: 20px 0;
-    font-size: 24px; /* Large text size */
+    padding: 40px 0; /* Double the vertical padding for more height */
+    font-size: 24px;
     text-align: center;
 }
 
+/* Enhancing the navigation area */
 .navigation {
-    background-color: #333; /* Grey background, matches the header */
-    padding: 80px 0; /* Increase vertical padding to make the rectangle taller */
-    border-top: 1px solid #fff; /* Thin white top border */
-    border-bottom: 1px solid #fff; /* Thin white bottom border */
+    background-color: #333;
+    padding: 40px 0; /* Significantly increase padding for taller navigation area */
+    border-top: 2px solid #fff; /* Slightly thicker top border */
+    border-bottom: 2px solid #fff; /* Slightly thicker bottom border */
+}
+
+.navigation ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
     text-align: center;
 }
 
-/* Adjusting navigation links to increase the size of white boxes/borders */
+.navigation ul li {
+    display: inline-block; /* Use inline-block for better control */
+    margin: 0 15px; /* Increase margin for more space between links */
+}
+
 .navigation ul li a {
     color: #fff;
     text-decoration: none;
-    padding: 10px 20px; /* Increase padding to make boxes larger */
-    border: 2px solid #fff; /* Make border thicker if desired */
-    font-size: 18px; /* Adjust font size as needed */
-    margin: 0 5px; /* Adjust spacing between links if necessary */
-    display: inline-block; /* Ensure padding and borders are applied correctly */
+    padding: 15px 30px; /* Increase padding to make the buttons larger */
+    border: 2px solid #fff; /* Thicker border for more pronounced boxes */
+    font-size: 20px; /* Slightly larger font size for better visibility */
+    display: inline-block; /* Ensure display is inline-block for padding and border to take effect */
 }
 
-/* Ensure there's enough space between the links */
-.navigation ul li {
-    margin: 0 10px; /* Increase margin to space out the links more, if needed */
-}
-
-
+/* Adjust as needed to ensure no other styles are conflicting */
 /* Main content and footer styles remain unchanged */
 
 main {
