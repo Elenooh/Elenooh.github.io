@@ -11,11 +11,24 @@ body {
     background-repeat: repeat; /* This ensures the image repeats */
 }
 
-header {
-    background-color: #333; /* Dark background for contrast */
+/* Add this below your existing header styles */
+.welcome-message {
+    background-color: #333; /* Grey background */
     color: #fff;
-    padding: 20px 0;
     text-align: center;
+    padding: 20px 0;
+    font-size: 24px; /* Large text */
+}
+
+/* Modify your existing header styles if necessary */
+header {
+    background-color: #333; /* Dark background for contrast, ensure this matches your theme */
+    /* Other styling remains unchanged */
+}
+
+/* Modify your existing nav styles to include the navigation rectangle styling */
+nav {
+    border: 1px solid #fff; /* Thin white border around navigation */
 }
 
 nav ul {
@@ -32,8 +45,11 @@ nav ul li a {
     color: #fff;
     text-decoration: none;
     font-size: 18px;
+    padding: 5px 10px; /* Button padding */
+    border: 1px solid #fff; /* Button border */
 }
 
+/* Continue with your existing styles */
 main {
     background-color: #fff; /* White rectangle */
     margin-top: -20px; /* Overlap main on header */
