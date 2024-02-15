@@ -49,6 +49,15 @@ body {
     display: inline-block; /* Ensure display is inline-block for padding and border to take effect */
 }
 
+#about h2, #features h2, #dog-generator h2 {
+    text-align: center;
+}
+
+#about img {
+    display: block; /* Makes the image a block-level element */
+    margin: 0 auto; /* Centers the image horizontally */
+}
+
 /* Adjust as needed to ensure no other styles are conflicting */
 /* Main content and footer styles remain unchanged */
 
