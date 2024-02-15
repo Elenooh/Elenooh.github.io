@@ -77,6 +77,10 @@ main {
     height: auto; /* Adjust height based on content */
     border: 5px solid grey; /* Border as specified */
     padding: 10px;
+    /* Your existing styles */
+    background-image: url('https://i.imgur.com/W2SFqfr.png');
+    background-size: cover; /* Cover the entire area */
+    background-position: center; /* Center the background image */
 }
 
 #options-container {
