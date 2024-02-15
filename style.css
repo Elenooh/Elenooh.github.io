@@ -68,18 +68,47 @@ main {
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.1); /* Soft shadow for depth */
 }
 
-#dog-preview {
-    position: relative;
-    width: 300px;
-    height: 200px;
+#dog-generator-wrapper {
+    width: 750px;
+    height: 1500px;
+    border: 2px solid grey; /* Thin border as specified */
+    padding: 10px; /* Inner padding */
+    display: flex;
+    flex-direction: column;
 }
-#dog-preview img, #dog-preview .overlay {
-    position: absolute;
-    top: 0;
-    left: 0;
-    width: 100%;
-    height: auto;
+
+#options-container {
+    background-color: white;
+    height: 500px; /* Height as specified */
+    width: calc(50% - 10px); /* Adjust based on your layout preference */
+    float: left;
+    padding: 10px;
+    box-sizing: border-box; /* Includes padding in width calculation */
 }
+
+#dog-preview-area {
+    height: 500px; /* Height as specified */
+    width: calc(50% - 10px); /* Adjust based on your layout preference */
+    float: right;
+    padding: 10px;
+    box-sizing: border-box; /* Includes padding in width calculation */
+}
+
+#dogPreviewImage {
+    height: 100%;
+    width: auto;
+}
+
+#additional-options {
+    clear: both;
+    padding-top: 10px; /* Colorless border/padding as specified */
+}
+
+#additional-options select {
+    width: 100%; /* Longer buttons/dropdowns as specified */
+    margin-bottom: 10px; /* Spacing between dropdowns */
+}
+
 
 footer {
     background-color: #333;
