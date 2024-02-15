@@ -11,43 +11,38 @@ body {
     background-repeat: repeat;
 }
 
-header {
-    background-color: #333; /* Dark background for contrast */
+/* Corrected header styles */
+.welcome-message {
+    background-color: #333; /* Matches the header */
     color: #fff;
+    padding: 20px 0;
+    font-size: 24px; /* Large text size */
     text-align: center;
 }
 
-/* Welcome message styles */
-.welcome-message {
-    padding: 20px 0;
-    font-size: 24px; /* Large white text */
-    background-color: #333; /* Grey background, matches the header */
+.navigation {
+    background-color: #333; /* Matches the header */
 }
 
-/* Navigation styles (updated to include border) */
-.navigation, nav {
-    background-color: #333; /* Grey background, matches the header */
-    border-top: 1px solid #fff; /* Thin white top border */
-    border-bottom: 1px solid #fff; /* Thin white bottom border */
-}
-
-nav ul {
-    list-style-type: none;
+.navigation ul {
     padding: 0;
+    list-style-type: none;
+    text-align: center;
 }
 
-nav ul li {
+.navigation ul li {
     display: inline;
-    margin: 0 20px;
+    margin: 0 10px;
 }
 
-nav ul li a {
+.navigation ul li a {
     color: #fff;
     text-decoration: none;
-    font-size: 18px;
-    padding: 5px 10px; /* Button padding */
-    border: 1px solid #fff; /* Button border */
+    padding: 5px 10px;
+    border: 1px solid #fff; /* Adding border around links */
+    font-size: 18px; /* Slightly smaller text size */
 }
+
 
 /* Main content and footer styles remain unchanged */
 
