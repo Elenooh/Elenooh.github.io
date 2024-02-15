@@ -69,35 +69,39 @@ main {
 }
 
 #dog-generator-wrapper {
-    width: 850px;
-    height: 1500px;
-    border: 5px solid grey; /* Thin border as specified */
-    padding: 10px; /* Inner padding */
-    display: flex;
-    flex-direction: column;
+    display: flex; /* Use flexbox layout */
+    flex-direction: row; /* Arrange children in a row */
+    align-items: flex-start; /* Align items to the start of the flex container */
+    justify-content: space-between; /* Space between the children */
+    width: 850px; /* Adjusted as per your setup */
+    height: auto; /* Adjust height based on content */
+    border: 5px solid grey; /* Border as specified */
+    padding: 10px;
 }
 
 #options-container {
+    flex: 1; /* Take up half of the space */
     background-color: white;
     height: 500px; /* Height as specified */
-    width: calc(50% - 10px); /* Adjust based on your layout preference */
-    float: left;
     padding: 10px;
-    box-sizing: border-box; /* Includes padding in width calculation */
+    box-sizing: border-box;
 }
 
 #dog-preview-area {
+    flex: 1; /* Take up the remaining space */
     height: 500px; /* Height as specified */
-    width: calc(50% - 10px); /* Adjust based on your layout preference */
-    float: right;
+    display: flex; /* Use flexbox layout for the preview area */
+    justify-content: center; /* Center the image horizontally */
+    align-items: center; /* Center the image vertically */
     padding: 10px;
-    box-sizing: border-box; /* Includes padding in width calculation */
+    box-sizing: border-box;
 }
 
 #dogPreviewImage {
-    height: 100%;
-    width: auto;
+    max-height: 100%;
+    max-width: 100%;
 }
+
 
 #additional-options {
     clear: both;
