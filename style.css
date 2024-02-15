@@ -12,14 +12,26 @@ body {
 }
 
 header {
-    background-color: #333; /* Dark background for contrast */
+    position: relative;
+    background-color: rgba(51, 51, 51, 0.9); /* Use RGBA for semi-transparent background */
     color: #fff;
     padding: 20px 0;
     text-align: center;
-    background-image: url('https://i.imgur.com/cRQYQTl.jpg'); /* Add your logo image path here */
-    background-repeat: no-repeat;
+    overflow: hidden; /* Ensure the pseudo-element does not extend the header's box */
+}
+
+header::before {
+    content: "";
+    position: absolute;
+    left: 0;
+    right: 0;
+    z-index: -1; /* Place the image behind the content */
+    background-image: url('https://i.imgur.com/cRQYQTl.jpg'); /* Your image path here */
+    background-size: cover; /* Cover the area of the pseudo-element */
     background-position: center; /* Center the background image */
-    background-size: contain; /* Adjust this value as needed */
+    top: 50%; /* Adjust these values to control the image size */
+    bottom: 50%;
+    transform: translateY(-50%) scale(3); /* Adjust scale as needed */
 }
 
 nav ul {
