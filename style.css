@@ -16,6 +16,10 @@ header {
     color: #fff;
     padding: 20px 0;
     text-align: center;
+    background-image: url('https://i.imgur.com/cRQYQTl.jpg'); /* Add your logo image path here */
+    background-repeat: no-repeat;
+    background-position: center; /* Center the background image */
+    background-size: contain; /* Adjust this value as needed */
 }
 
 nav ul {
