@@ -7,28 +7,28 @@
 
 body {
     font-family: Arial, sans-serif;
-    background-image: url('https://i.imgur.com/yY1MBay.png'); /* Replace with your image path */
-    background-repeat: repeat; /* This ensures the image repeats */
+    background-image: url('https://i.imgur.com/yY1MBay.png'); /* Background repeats */
+    background-repeat: repeat;
 }
 
-/* Add this below your existing header styles */
-.welcome-message {
-    background-color: #333; /* Grey background */
+header {
+    background-color: #333; /* Dark background for contrast */
     color: #fff;
     text-align: center;
+}
+
+/* Welcome message styles */
+.welcome-message {
     padding: 20px 0;
-    font-size: 24px; /* Large text */
+    font-size: 24px; /* Large white text */
+    background-color: #333; /* Grey background, matches the header */
 }
 
-/* Modify your existing header styles if necessary */
-header {
-    background-color: #333; /* Dark background for contrast, ensure this matches your theme */
-    /* Other styling remains unchanged */
-}
-
-/* Modify your existing nav styles to include the navigation rectangle styling */
-nav {
-    border: 1px solid #fff; /* Thin white border around navigation */
+/* Navigation styles (updated to include border) */
+.navigation, nav {
+    background-color: #333; /* Grey background, matches the header */
+    border-top: 1px solid #fff; /* Thin white top border */
+    border-bottom: 1px solid #fff; /* Thin white bottom border */
 }
 
 nav ul {
@@ -49,7 +49,8 @@ nav ul li a {
     border: 1px solid #fff; /* Button border */
 }
 
-/* Continue with your existing styles */
+/* Main content and footer styles remain unchanged */
+
 main {
     background-color: #fff; /* White rectangle */
     margin-top: -20px; /* Overlap main on header */
