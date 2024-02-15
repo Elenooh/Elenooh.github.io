@@ -92,14 +92,21 @@ main {
 }
 
 #dog-preview-area {
-    flex: 1; /* Take up the remaining space */
-    height: 500px; /* Height as specified */
-    display: flex; /* Use flexbox layout for the preview area */
-    justify-content: center; /* Center the image horizontally */
-    align-items: center; /* Center the image vertically */
+    display: flex;
+    flex-direction: column; /* Align children vertically */
+    align-items: center; /* Center children horizontally */
+    justify-content: start; /* Align items to the start of the container */
+    height: auto; /* Adjust height based on content */
+    width: calc(50% - 20px); /* Adjust width as needed, accounting for padding */
     padding: 10px;
     box-sizing: border-box;
 }
+
+#dog-preview-area select {
+    width: 80%; /* Set the width of the dropdown to fit within the container */
+    margin-top: 10px; /* Add some space between the image and the dropdown */
+}
+
 
 #dogPreviewImage {
     max-height: 100%;
