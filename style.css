@@ -23,7 +23,7 @@ body {
 /* Enhancing the navigation area */
 .navigation {
     background-color: #333;
-    padding: 40px 0; /* Significantly increase padding for taller navigation area */
+    padding: 20px 0; /* Significantly increase padding for taller navigation area */
     border-top: 2px solid #fff; /* Slightly thicker top border */
     border-bottom: 2px solid #fff; /* Slightly thicker bottom border */
 }
