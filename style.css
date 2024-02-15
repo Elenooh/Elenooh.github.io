@@ -69,9 +69,9 @@ main {
 }
 
 #dog-generator-wrapper {
-    width: 750px;
+    width: 850px;
     height: 1500px;
-    border: 2px solid grey; /* Thin border as specified */
+    border: 5px solid grey; /* Thin border as specified */
     padding: 10px; /* Inner padding */
     display: flex;
     flex-direction: column;
