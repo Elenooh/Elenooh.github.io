@@ -1,9 +1,22 @@
 document.getElementById('eyeColor').addEventListener('change', function() {
     var eyeColor = this.value;
-    // Assuming you have images named after the eye color
-    var eyeOverlayImg = 'path-to-' + eyeColor + '-eyes.png';
-    // Update the src of an overlay image or add a new overlay
-    document.getElementById('eyeOverlay').src = eyeOverlayImg;
-});
+        // Update the dog preview based on eye color selection
+        // This might involve changing an overlay or the base image
+    });
 
-// Repeat and adapt for other selections like nose, base, markings
+    // Handler for nose color change
+    document.getElementById('noseColor').addEventListener('change', function() {
+        var noseColor = this.value;
+        // Update the dog preview based on nose color selection
+        // Implement the update logic, similar to eye color
+    });
+
+    // Handler for base color change
+    document.getElementById('baseColor').addEventListener('change', function() {
+        var baseColor = this.value;
+        // Update the dog preview based on base color selection
+        // Implement the update logic, similar to eye color
+    });
+
+    // Add similar event listeners for other properties like skin color, markings, etc.
+});
