@@ -22,7 +22,7 @@ body {
 
 .navigation {
     background-color: #333; /* Grey background, matches the header */
-    padding: 20px 0; /* Increase vertical padding to make the rectangle taller */
+    padding: 80px 0; /* Increase vertical padding to make the rectangle taller */
     border-top: 1px solid #fff; /* Thin white top border */
     border-bottom: 1px solid #fff; /* Thin white bottom border */
     text-align: center;
