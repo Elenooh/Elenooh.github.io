@@ -1,0 +1,29 @@
+/images
+    /base       # For base body images
+    /eyes       # For different eye colors or shapes
+    /nose       # For different nose colors
+    /fur        # For different fur colors and patterns
+    /markings   # For special markings like spots, stripes, etc.
+
+/dog-generator-project
+    /scripts
+        script.js     # Your JavaScript file(s)
+    /styles
+        style.css     # Your CSS file(s)
+    /images
+        /base
+            base1.png
+            base2.png
+        /eyes
+            eye-blue.png
+            eye-green.png
+        /nose
+            nose-pink.png
+            nose-black.png
+        /fur
+            fur-spotted.png
+            fur-striped.png
+        /markings
+            marking-spots1.png
+            marking-spots2.png
+    index.html         # Your main HTML file
